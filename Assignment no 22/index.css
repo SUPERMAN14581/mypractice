@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(210,36%,96%);
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: hsl(205,86%,17%);
+    margin-bottom: 1.5rem;
+}
+
+.todos{
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 90vw;
+    /* margin-top: 5rem;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem;
+}
+
+.todos:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todos1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input1{
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: hsl(210,36%,96%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: hsl(210,22%,49%);
+    width: 60vw;
+    max-width: 25rem;
+    
+}
+
+.button1{
+    text-transform: capitalize;
+    border-color: transparent;
+    background: hsl(205,86%,81%);
+    align-items: center;
+    padding: 0.25rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+    content: #49ace9;
+    font-size: 0.85rem;
+}
+
+.button1:hover{
+    color: white;
+    background: #49ace9
+}
+
+.todos2{
+    display: flex;
+    justify-content: center; 
+}
+
+.todos3{
+    margin-top: 2rem;
+    /* visibility: hidden; */
+}
+
+.grocery-item {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.grocery-item:hover {
+    color: hsl(210,22%,49%);
+    background: hsl(210,36%,96%);
+}
+
+.title {
+    margin-bottom: 0;
+    color: hsl(209,61%,16%);
+    letter-spacing: 2px;
+}
+
+
+.edit-btn,.delete-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: hsl(360,71%,70%);
+}
+
+.delete-btn:hover {
+    color: #cd212a;
+}
+
+.edit-btn {
+    color: hsl(125,71%,66%);
+}
+
+.edit-btn:hover {
+    color: #009B77;
+}
+
+.clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: hsl(360,71%,70%);
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 1.25rem;
+}
+
+.clear-btn:hover {
+    color: #cd212a;
+}
+
+.clear-inactive{
+    display: none;
+}
+
