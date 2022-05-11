@@ -3,7 +3,7 @@ var result = document.getElementById("result")
 const score = document.getElementById("score")
 var game = document.getElementById("game")
 var counter =0;
-var jumpsound = document.getElementById("jumpsound")
+var jumpsound = document.getElementById("beta")
 
 var racecar1 = document.querySelector(".racecar")
 var rightmove = document.getElementById("btn3")
@@ -20,6 +20,7 @@ function rightmovingbykey(){
     racecar1.classList.remove('racecar')
     racecar1.classList.add('racecar1')
     racecar1.classList.remove('racecar2')
+    beta.play()
 
 }
 
@@ -27,12 +28,14 @@ function midmovingbykey(){
     racecar1.classList.add('racecar')
     racecar1.classList.remove('racecar1')
     racecar1.classList.remove('racecar2')
+    beta.play()
 }
 
 function leftmovingbykey(){ 
     racecar1.classList.remove('racecar')
     racecar1.classList.add('racecar2')
-    racecar1.classList.remove('racecar1') 
+    racecar1.classList.remove('racecar1')
+    beta.play() 
 }
 
 //working on blue car
