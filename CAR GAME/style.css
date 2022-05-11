@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+#leftright {
+    text-align: center;
+
+}
+
+#Name{
+    background-color: rgb(255, 216, 209);
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#name2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#btn2{
+    height: 40px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin:30px 5px 0px 5px;
+    font-size: 15px;
+    color: red;
+}
+
+#btn3{
+    height: 40px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin:30px 5px 0px 5px;
+    font-size: 15px;
+    color: red;
+}
+
+#btn4{
+    height: 40px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin:5px 5px 0px 5px;
+    font-size: 15px;
+    color: red;
+}
+
+#game{
+    height: 500px;
+    width: 390px;
+    border: 2px solid black;
+    margin: 1rem auto;
+    background: url(bg.jpg);
+    background-size: contain;
+    overflow: hidden;
+}
+
+#bluecar{
+    height: 100px;
+    width: 130px;
+    /* background-color: blue; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation: move 1.5s linear infinite ;
+    text-align: center;
+}
+
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+
+    100%{
+        top: 501px;
+    }
+}
+
+.racecar{
+    height: 100px;
+    width: 130px;
+    /* background-color: red; */
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+}
+
+.racecar1{
+    height: 100px;
+    width: 130px;
+    /* background-color: red; */
+    position: relative;
+    top: 250px;
+    left: 260px;
+    text-align: center;
+}
+
+.racecar2{
+    height: 100px;
+    width: 130px;
+    /* background-color: red; */
+    position: relative;
+    top: 250px;
+    left: 0px;
+    text-align: center;
+}
+
+
+/* #bluecar img{
+    height: 100px;
+} */
+
+.img1{
+    height: 100px;
+}
+
+.racecar img{
+    height: 100px;
+}
+
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin:  1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:none ;
+}
+#score{
+    font-size: 2.2rem;
+    color:red;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: yellow;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
