@@ -5,16 +5,15 @@ var score = document.getElementById("score");
 var count = 0;
 var sound = document.getElementById("sound")
 var button = document.getElementById("btn2")
-
 function jump(){
     character.style.top = "110px";
     setTimeout(function(){
         character.style.top = "170px"
     },500);
     sound.play();
+    // sound.play();
     count++
 };
-
 button.addEventListener('click', jump);
 
 var block = document.getElementById("block");

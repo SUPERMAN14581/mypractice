@@ -12,15 +12,16 @@ body{
 
 }
 
-#Name{
+#name{
     background-color: rgb(255, 216, 209);
     width: fit-content;
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
+    align-items: center;
 }
 
-#name2{
+#Name2{
     display: flex;
     justify-content: center;
     text-align: center;
