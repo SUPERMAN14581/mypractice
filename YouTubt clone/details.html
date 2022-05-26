@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cs/bootstrap.css">
+    <link rel="shortcut icon" href="cs/play.png" type="image/png">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="cs/play.png" alt="" width="30" height="24" class="d-inline-block align-text-top">&nbsp;VideoBuddy</a>
+          
+          <form class="d-flex" action="search.html">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q" id="input_search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+     
+     <section class="mt-4 px-4">
+        <div class="container">
+            <div class="row">
+              <div class="col" >
+                <iframe width="560" height="315" id="player_container"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col">
+               <h3 id="video_title">
+               </h3>
+               <h4 id="channel_name">
+                   
+               </h4>
+               <p id="video_discription" style="max-height: 12rem; overflow:auto">
+                   
+               </p>
+               <p>views : <span id="video_views"></span>&nbsp;&nbsp;&nbsp;&nbsp; Like:<span id="video_likes"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-4">
+            <div class="hstack gap-3" style="overflow: auto;align-items: flex-start;"  id="suggestion_container">
+            
+              </div>
+          </div>
+    </section>
+   
+    <footer>
+        <h1>Footer from the index</h1>
+    </footer>   
+<script src="js/bootstrap.js"></script>
+<script src="js/details.js"></script>
+
+</body>
+</html>
+
+
+
